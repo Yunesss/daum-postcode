@@ -3,6 +3,14 @@
   <head>
     <meta charset="utf-8" />
     <title>Daum Postcode Service</title>
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+      }
+    </style>
     <script src="https://t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
     <script>
       function selectAddress() {
@@ -31,6 +39,6 @@
     </script>
   </head>
   <body>
-    <div id="postcode" style="width: 100%; height: 400px"></div>
+    <div id="postcode" style="width: 100%; height: 100vh"></div>
   </body>
 </html>
